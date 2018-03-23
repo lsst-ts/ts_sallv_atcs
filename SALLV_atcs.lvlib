@@ -23,6 +23,7 @@
 		<Item Name="logevent_ErrorCode.ctl" Type="VI" URL="../DataTypes/logevent_ErrorCode.ctl"/>
 		<Item Name="logevent_Heartbeat.ctl" Type="VI" URL="../DataTypes/logevent_Heartbeat.ctl"/>
 		<Item Name="logevent_InternalCommand.ctl" Type="VI" URL="../DataTypes/logevent_InternalCommand.ctl"/>
+		<Item Name="logevent_LoopTimeOutOfRange.ctl" Type="VI" URL="../DataTypes/logevent_LoopTimeOutOfRange.ctl"/>
 		<Item Name="logevent_RejectedCommand.ctl" Type="VI" URL="../DataTypes/logevent_RejectedCommand.ctl"/>
 		<Item Name="logevent_SettingVersions.ctl" Type="VI" URL="../DataTypes/logevent_SettingVersions.ctl"/>
 		<Item Name="logevent_SpectrographInPosition.ctl" Type="VI" URL="../DataTypes/logevent_SpectrographInPosition.ctl"/>
@@ -82,6 +83,7 @@
 	<Item Name="atcs_cancelCallback_logEvent_ErrorCode.vi" Type="VI" URL="../VIs/atcs_cancelCallback_logEvent_ErrorCode.vi"/>
 	<Item Name="atcs_cancelCallback_logEvent_Heartbeat.vi" Type="VI" URL="../VIs/atcs_cancelCallback_logEvent_Heartbeat.vi"/>
 	<Item Name="atcs_cancelCallback_logEvent_InternalCommand.vi" Type="VI" URL="../VIs/atcs_cancelCallback_logEvent_InternalCommand.vi"/>
+	<Item Name="atcs_cancelCallback_logEvent_LoopTimeOutOfRange.vi" Type="VI" URL="../VIs/atcs_cancelCallback_logEvent_LoopTimeOutOfRange.vi"/>
 	<Item Name="atcs_cancelCallback_logEvent_RejectedCommand.vi" Type="VI" URL="../VIs/atcs_cancelCallback_logEvent_RejectedCommand.vi"/>
 	<Item Name="atcs_cancelCallback_logEvent_SettingVersions.vi" Type="VI" URL="../VIs/atcs_cancelCallback_logEvent_SettingVersions.vi"/>
 	<Item Name="atcs_cancelCallback_logEvent_SpectrographInPosition.vi" Type="VI" URL="../VIs/atcs_cancelCallback_logEvent_SpectrographInPosition.vi"/>
@@ -94,6 +96,7 @@
 	<Item Name="atcs_flushSamplesEvent_ErrorCode.vi" Type="VI" URL="../VIs/atcs_flushSamplesEvent_ErrorCode.vi"/>
 	<Item Name="atcs_flushSamplesEvent_Heartbeat.vi" Type="VI" URL="../VIs/atcs_flushSamplesEvent_Heartbeat.vi"/>
 	<Item Name="atcs_flushSamplesEvent_InternalCommand.vi" Type="VI" URL="../VIs/atcs_flushSamplesEvent_InternalCommand.vi"/>
+	<Item Name="atcs_flushSamplesEvent_LoopTimeOutOfRange.vi" Type="VI" URL="../VIs/atcs_flushSamplesEvent_LoopTimeOutOfRange.vi"/>
 	<Item Name="atcs_flushSamplesEvent_RejectedCommand.vi" Type="VI" URL="../VIs/atcs_flushSamplesEvent_RejectedCommand.vi"/>
 	<Item Name="atcs_flushSamplesEvent_SettingVersions.vi" Type="VI" URL="../VIs/atcs_flushSamplesEvent_SettingVersions.vi"/>
 	<Item Name="atcs_flushSamplesEvent_SpectrographInPosition.vi" Type="VI" URL="../VIs/atcs_flushSamplesEvent_SpectrographInPosition.vi"/>
@@ -106,6 +109,7 @@
 	<Item Name="atcs_getEvent_ErrorCode.vi" Type="VI" URL="../VIs/atcs_getEvent_ErrorCode.vi"/>
 	<Item Name="atcs_getEvent_Heartbeat.vi" Type="VI" URL="../VIs/atcs_getEvent_Heartbeat.vi"/>
 	<Item Name="atcs_getEvent_InternalCommand.vi" Type="VI" URL="../VIs/atcs_getEvent_InternalCommand.vi"/>
+	<Item Name="atcs_getEvent_LoopTimeOutOfRange.vi" Type="VI" URL="../VIs/atcs_getEvent_LoopTimeOutOfRange.vi"/>
 	<Item Name="atcs_getEvent_RejectedCommand.vi" Type="VI" URL="../VIs/atcs_getEvent_RejectedCommand.vi"/>
 	<Item Name="atcs_getEvent_SettingVersions.vi" Type="VI" URL="../VIs/atcs_getEvent_SettingVersions.vi"/>
 	<Item Name="atcs_getEvent_SpectrographInPosition.vi" Type="VI" URL="../VIs/atcs_getEvent_SpectrographInPosition.vi"/>
@@ -139,6 +143,7 @@
 	<Item Name="atcs_logEvent_ErrorCode.vi" Type="VI" URL="../VIs/atcs_logEvent_ErrorCode.vi"/>
 	<Item Name="atcs_logEvent_Heartbeat.vi" Type="VI" URL="../VIs/atcs_logEvent_Heartbeat.vi"/>
 	<Item Name="atcs_logEvent_InternalCommand.vi" Type="VI" URL="../VIs/atcs_logEvent_InternalCommand.vi"/>
+	<Item Name="atcs_logEvent_LoopTimeOutOfRange.vi" Type="VI" URL="../VIs/atcs_logEvent_LoopTimeOutOfRange.vi"/>
 	<Item Name="atcs_logEvent_RejectedCommand.vi" Type="VI" URL="../VIs/atcs_logEvent_RejectedCommand.vi"/>
 	<Item Name="atcs_logEvent_SettingVersions.vi" Type="VI" URL="../VIs/atcs_logEvent_SettingVersions.vi"/>
 	<Item Name="atcs_logEvent_SpectrographInPosition.vi" Type="VI" URL="../VIs/atcs_logEvent_SpectrographInPosition.vi"/>
@@ -184,6 +189,7 @@
 	<Item Name="atcs_registerCallback_logEvent_ErrorCode.vi" Type="VI" URL="../VIs/atcs_registerCallback_logEvent_ErrorCode.vi"/>
 	<Item Name="atcs_registerCallback_logEvent_Heartbeat.vi" Type="VI" URL="../VIs/atcs_registerCallback_logEvent_Heartbeat.vi"/>
 	<Item Name="atcs_registerCallback_logEvent_InternalCommand.vi" Type="VI" URL="../VIs/atcs_registerCallback_logEvent_InternalCommand.vi"/>
+	<Item Name="atcs_registerCallback_logEvent_LoopTimeOutOfRange.vi" Type="VI" URL="../VIs/atcs_registerCallback_logEvent_LoopTimeOutOfRange.vi"/>
 	<Item Name="atcs_registerCallback_logEvent_RejectedCommand.vi" Type="VI" URL="../VIs/atcs_registerCallback_logEvent_RejectedCommand.vi"/>
 	<Item Name="atcs_registerCallback_logEvent_SettingVersions.vi" Type="VI" URL="../VIs/atcs_registerCallback_logEvent_SettingVersions.vi"/>
 	<Item Name="atcs_registerCallback_logEvent_SpectrographInPosition.vi" Type="VI" URL="../VIs/atcs_registerCallback_logEvent_SpectrographInPosition.vi"/>
@@ -204,6 +210,7 @@
 	<Item Name="atcs_salEvent_ErrorCode.vi" Type="VI" URL="../VIs/atcs_salEvent_ErrorCode.vi"/>
 	<Item Name="atcs_salEvent_Heartbeat.vi" Type="VI" URL="../VIs/atcs_salEvent_Heartbeat.vi"/>
 	<Item Name="atcs_salEvent_InternalCommand.vi" Type="VI" URL="../VIs/atcs_salEvent_InternalCommand.vi"/>
+	<Item Name="atcs_salEvent_LoopTimeOutOfRange.vi" Type="VI" URL="../VIs/atcs_salEvent_LoopTimeOutOfRange.vi"/>
 	<Item Name="atcs_salEvent_RejectedCommand.vi" Type="VI" URL="../VIs/atcs_salEvent_RejectedCommand.vi"/>
 	<Item Name="atcs_salEvent_SettingVersions.vi" Type="VI" URL="../VIs/atcs_salEvent_SettingVersions.vi"/>
 	<Item Name="atcs_salEvent_SpectrographInPosition.vi" Type="VI" URL="../VIs/atcs_salEvent_SpectrographInPosition.vi"/>
