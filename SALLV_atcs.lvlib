@@ -29,7 +29,6 @@
 		<Item Name="logevent_SpectrographInPosition.ctl" Type="VI" URL="../DataTypes/logevent_SpectrographInPosition.ctl"/>
 		<Item Name="logevent_SummaryState.ctl" Type="VI" URL="../DataTypes/logevent_SummaryState.ctl"/>
 		<Item Name="logevent_TelescopeInPosition.ctl" Type="VI" URL="../DataTypes/logevent_TelescopeInPosition.ctl"/>
-		<Item Name="logevent_TelescopeSkyPosition.ctl" Type="VI" URL="../DataTypes/logevent_TelescopeSkyPosition.ctl"/>
 	</Item>
 	<Item Name="subvi" Type="Folder">
 		<Item Name="ErrorConverter(ErrCodeorStatus).vi" Type="VI" URL="../subvi/ErrorConverter(ErrCodeorStatus).vi"/>
@@ -89,7 +88,6 @@
 	<Item Name="atcs_cancelCallback_logEvent_SpectrographInPosition.vi" Type="VI" URL="../VIs/atcs_cancelCallback_logEvent_SpectrographInPosition.vi"/>
 	<Item Name="atcs_cancelCallback_logEvent_SummaryState.vi" Type="VI" URL="../VIs/atcs_cancelCallback_logEvent_SummaryState.vi"/>
 	<Item Name="atcs_cancelCallback_logEvent_TelescopeInPosition.vi" Type="VI" URL="../VIs/atcs_cancelCallback_logEvent_TelescopeInPosition.vi"/>
-	<Item Name="atcs_cancelCallback_logEvent_TelescopeSkyPosition.vi" Type="VI" URL="../VIs/atcs_cancelCallback_logEvent_TelescopeSkyPosition.vi"/>
 	<Item Name="atcs_checkCallbacks.vi" Type="VI" URL="../VIs/atcs_checkCallbacks.vi"/>
 	<Item Name="atcs_flushSamplesEvent_AppliedSettingsMatchStart.vi" Type="VI" URL="../VIs/atcs_flushSamplesEvent_AppliedSettingsMatchStart.vi"/>
 	<Item Name="atcs_flushSamplesEvent_DetailedState.vi" Type="VI" URL="../VIs/atcs_flushSamplesEvent_DetailedState.vi"/>
@@ -102,7 +100,6 @@
 	<Item Name="atcs_flushSamplesEvent_SpectrographInPosition.vi" Type="VI" URL="../VIs/atcs_flushSamplesEvent_SpectrographInPosition.vi"/>
 	<Item Name="atcs_flushSamplesEvent_SummaryState.vi" Type="VI" URL="../VIs/atcs_flushSamplesEvent_SummaryState.vi"/>
 	<Item Name="atcs_flushSamplesEvent_TelescopeInPosition.vi" Type="VI" URL="../VIs/atcs_flushSamplesEvent_TelescopeInPosition.vi"/>
-	<Item Name="atcs_flushSamplesEvent_TelescopeSkyPosition.vi" Type="VI" URL="../VIs/atcs_flushSamplesEvent_TelescopeSkyPosition.vi"/>
 	<Item Name="atcs_getCurrentTime.vi" Type="VI" URL="../VIs/atcs_getCurrentTime.vi"/>
 	<Item Name="atcs_getEvent_AppliedSettingsMatchStart.vi" Type="VI" URL="../VIs/atcs_getEvent_AppliedSettingsMatchStart.vi"/>
 	<Item Name="atcs_getEvent_DetailedState.vi" Type="VI" URL="../VIs/atcs_getEvent_DetailedState.vi"/>
@@ -115,7 +112,6 @@
 	<Item Name="atcs_getEvent_SpectrographInPosition.vi" Type="VI" URL="../VIs/atcs_getEvent_SpectrographInPosition.vi"/>
 	<Item Name="atcs_getEvent_SummaryState.vi" Type="VI" URL="../VIs/atcs_getEvent_SummaryState.vi"/>
 	<Item Name="atcs_getEvent_TelescopeInPosition.vi" Type="VI" URL="../VIs/atcs_getEvent_TelescopeInPosition.vi"/>
-	<Item Name="atcs_getEvent_TelescopeSkyPosition.vi" Type="VI" URL="../VIs/atcs_getEvent_TelescopeSkyPosition.vi"/>
 	<Item Name="atcs_getNextSample_LoopTimems.vi" Type="VI" URL="../VIs/atcs_getNextSample_LoopTimems.vi"/>
 	<Item Name="atcs_getNextSample_Timestamp.vi" Type="VI" URL="../VIs/atcs_getNextSample_Timestamp.vi"/>
 	<Item Name="atcs_getResponse_Offset.vi" Type="VI" URL="../VIs/atcs_getResponse_Offset.vi"/>
@@ -149,7 +145,6 @@
 	<Item Name="atcs_logEvent_SpectrographInPosition.vi" Type="VI" URL="../VIs/atcs_logEvent_SpectrographInPosition.vi"/>
 	<Item Name="atcs_logEvent_SummaryState.vi" Type="VI" URL="../VIs/atcs_logEvent_SummaryState.vi"/>
 	<Item Name="atcs_logEvent_TelescopeInPosition.vi" Type="VI" URL="../VIs/atcs_logEvent_TelescopeInPosition.vi"/>
-	<Item Name="atcs_logEvent_TelescopeSkyPosition.vi" Type="VI" URL="../VIs/atcs_logEvent_TelescopeSkyPosition.vi"/>
 	<Item Name="atcs_monitorCommand_Offset.vi" Type="VI" URL="../VIs/atcs_monitorCommand_Offset.vi"/>
 	<Item Name="atcs_monitorCommand_SpectrographSetup.vi" Type="VI" URL="../VIs/atcs_monitorCommand_SpectrographSetup.vi"/>
 	<Item Name="atcs_monitorCommand_Target.vi" Type="VI" URL="../VIs/atcs_monitorCommand_Target.vi"/>
@@ -195,7 +190,6 @@
 	<Item Name="atcs_registerCallback_logEvent_SpectrographInPosition.vi" Type="VI" URL="../VIs/atcs_registerCallback_logEvent_SpectrographInPosition.vi"/>
 	<Item Name="atcs_registerCallback_logEvent_SummaryState.vi" Type="VI" URL="../VIs/atcs_registerCallback_logEvent_SummaryState.vi"/>
 	<Item Name="atcs_registerCallback_logEvent_TelescopeInPosition.vi" Type="VI" URL="../VIs/atcs_registerCallback_logEvent_TelescopeInPosition.vi"/>
-	<Item Name="atcs_registerCallback_logEvent_TelescopeSkyPosition.vi" Type="VI" URL="../VIs/atcs_registerCallback_logEvent_TelescopeSkyPosition.vi"/>
 	<Item Name="atcs_salCommander_Offset.vi" Type="VI" URL="../VIs/atcs_salCommander_Offset.vi"/>
 	<Item Name="atcs_salCommander_SpectrographSetup.vi" Type="VI" URL="../VIs/atcs_salCommander_SpectrographSetup.vi"/>
 	<Item Name="atcs_salCommander_Target.vi" Type="VI" URL="../VIs/atcs_salCommander_Target.vi"/>
@@ -216,7 +210,6 @@
 	<Item Name="atcs_salEvent_SpectrographInPosition.vi" Type="VI" URL="../VIs/atcs_salEvent_SpectrographInPosition.vi"/>
 	<Item Name="atcs_salEvent_SummaryState.vi" Type="VI" URL="../VIs/atcs_salEvent_SummaryState.vi"/>
 	<Item Name="atcs_salEvent_TelescopeInPosition.vi" Type="VI" URL="../VIs/atcs_salEvent_TelescopeInPosition.vi"/>
-	<Item Name="atcs_salEvent_TelescopeSkyPosition.vi" Type="VI" URL="../VIs/atcs_salEvent_TelescopeSkyPosition.vi"/>
 	<Item Name="atcs_salProcessor_Offset.vi" Type="VI" URL="../VIs/atcs_salProcessor_Offset.vi"/>
 	<Item Name="atcs_salProcessor_SpectrographSetup.vi" Type="VI" URL="../VIs/atcs_salProcessor_SpectrographSetup.vi"/>
 	<Item Name="atcs_salProcessor_Target.vi" Type="VI" URL="../VIs/atcs_salProcessor_Target.vi"/>
