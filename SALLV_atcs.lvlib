@@ -26,6 +26,7 @@
 		<Item Name="logevent_LoopTimeOutOfRange.ctl" Type="VI" URL="../DataTypes/logevent_LoopTimeOutOfRange.ctl"/>
 		<Item Name="logevent_RejectedCommand.ctl" Type="VI" URL="../DataTypes/logevent_RejectedCommand.ctl"/>
 		<Item Name="logevent_SettingVersions.ctl" Type="VI" URL="../DataTypes/logevent_SettingVersions.ctl"/>
+		<Item Name="logevent_SettingsApplied_Example.ctl" Type="VI" URL="../DataTypes/logevent_SettingsApplied_Example.ctl"/>
 		<Item Name="logevent_SpectrographInPosition.ctl" Type="VI" URL="../DataTypes/logevent_SpectrographInPosition.ctl"/>
 		<Item Name="logevent_SummaryState.ctl" Type="VI" URL="../DataTypes/logevent_SummaryState.ctl"/>
 		<Item Name="logevent_TelescopeInPosition.ctl" Type="VI" URL="../DataTypes/logevent_TelescopeInPosition.ctl"/>
@@ -85,6 +86,7 @@
 	<Item Name="atcs_cancelCallback_logEvent_LoopTimeOutOfRange.vi" Type="VI" URL="../VIs/atcs_cancelCallback_logEvent_LoopTimeOutOfRange.vi"/>
 	<Item Name="atcs_cancelCallback_logEvent_RejectedCommand.vi" Type="VI" URL="../VIs/atcs_cancelCallback_logEvent_RejectedCommand.vi"/>
 	<Item Name="atcs_cancelCallback_logEvent_SettingVersions.vi" Type="VI" URL="../VIs/atcs_cancelCallback_logEvent_SettingVersions.vi"/>
+	<Item Name="atcs_cancelCallback_logEvent_SettingsAppliedExample.vi" Type="VI" URL="../VIs/atcs_cancelCallback_logEvent_SettingsAppliedExample.vi"/>
 	<Item Name="atcs_cancelCallback_logEvent_SpectrographInPosition.vi" Type="VI" URL="../VIs/atcs_cancelCallback_logEvent_SpectrographInPosition.vi"/>
 	<Item Name="atcs_cancelCallback_logEvent_SummaryState.vi" Type="VI" URL="../VIs/atcs_cancelCallback_logEvent_SummaryState.vi"/>
 	<Item Name="atcs_cancelCallback_logEvent_TelescopeInPosition.vi" Type="VI" URL="../VIs/atcs_cancelCallback_logEvent_TelescopeInPosition.vi"/>
@@ -97,6 +99,7 @@
 	<Item Name="atcs_flushSamplesEvent_LoopTimeOutOfRange.vi" Type="VI" URL="../VIs/atcs_flushSamplesEvent_LoopTimeOutOfRange.vi"/>
 	<Item Name="atcs_flushSamplesEvent_RejectedCommand.vi" Type="VI" URL="../VIs/atcs_flushSamplesEvent_RejectedCommand.vi"/>
 	<Item Name="atcs_flushSamplesEvent_SettingVersions.vi" Type="VI" URL="../VIs/atcs_flushSamplesEvent_SettingVersions.vi"/>
+	<Item Name="atcs_flushSamplesEvent_SettingsAppliedExample.vi" Type="VI" URL="../VIs/atcs_flushSamplesEvent_SettingsAppliedExample.vi"/>
 	<Item Name="atcs_flushSamplesEvent_SpectrographInPosition.vi" Type="VI" URL="../VIs/atcs_flushSamplesEvent_SpectrographInPosition.vi"/>
 	<Item Name="atcs_flushSamplesEvent_SummaryState.vi" Type="VI" URL="../VIs/atcs_flushSamplesEvent_SummaryState.vi"/>
 	<Item Name="atcs_flushSamplesEvent_TelescopeInPosition.vi" Type="VI" URL="../VIs/atcs_flushSamplesEvent_TelescopeInPosition.vi"/>
@@ -109,6 +112,7 @@
 	<Item Name="atcs_getEvent_LoopTimeOutOfRange.vi" Type="VI" URL="../VIs/atcs_getEvent_LoopTimeOutOfRange.vi"/>
 	<Item Name="atcs_getEvent_RejectedCommand.vi" Type="VI" URL="../VIs/atcs_getEvent_RejectedCommand.vi"/>
 	<Item Name="atcs_getEvent_SettingVersions.vi" Type="VI" URL="../VIs/atcs_getEvent_SettingVersions.vi"/>
+	<Item Name="atcs_getEvent_SettingsAppliedExample.vi" Type="VI" URL="../VIs/atcs_getEvent_SettingsAppliedExample.vi"/>
 	<Item Name="atcs_getEvent_SpectrographInPosition.vi" Type="VI" URL="../VIs/atcs_getEvent_SpectrographInPosition.vi"/>
 	<Item Name="atcs_getEvent_SummaryState.vi" Type="VI" URL="../VIs/atcs_getEvent_SummaryState.vi"/>
 	<Item Name="atcs_getEvent_TelescopeInPosition.vi" Type="VI" URL="../VIs/atcs_getEvent_TelescopeInPosition.vi"/>
@@ -142,6 +146,7 @@
 	<Item Name="atcs_logEvent_LoopTimeOutOfRange.vi" Type="VI" URL="../VIs/atcs_logEvent_LoopTimeOutOfRange.vi"/>
 	<Item Name="atcs_logEvent_RejectedCommand.vi" Type="VI" URL="../VIs/atcs_logEvent_RejectedCommand.vi"/>
 	<Item Name="atcs_logEvent_SettingVersions.vi" Type="VI" URL="../VIs/atcs_logEvent_SettingVersions.vi"/>
+	<Item Name="atcs_logEvent_SettingsAppliedExample.vi" Type="VI" URL="../VIs/atcs_logEvent_SettingsAppliedExample.vi"/>
 	<Item Name="atcs_logEvent_SpectrographInPosition.vi" Type="VI" URL="../VIs/atcs_logEvent_SpectrographInPosition.vi"/>
 	<Item Name="atcs_logEvent_SummaryState.vi" Type="VI" URL="../VIs/atcs_logEvent_SummaryState.vi"/>
 	<Item Name="atcs_logEvent_TelescopeInPosition.vi" Type="VI" URL="../VIs/atcs_logEvent_TelescopeInPosition.vi"/>
@@ -187,6 +192,7 @@
 	<Item Name="atcs_registerCallback_logEvent_LoopTimeOutOfRange.vi" Type="VI" URL="../VIs/atcs_registerCallback_logEvent_LoopTimeOutOfRange.vi"/>
 	<Item Name="atcs_registerCallback_logEvent_RejectedCommand.vi" Type="VI" URL="../VIs/atcs_registerCallback_logEvent_RejectedCommand.vi"/>
 	<Item Name="atcs_registerCallback_logEvent_SettingVersions.vi" Type="VI" URL="../VIs/atcs_registerCallback_logEvent_SettingVersions.vi"/>
+	<Item Name="atcs_registerCallback_logEvent_SettingsAppliedExample.vi" Type="VI" URL="../VIs/atcs_registerCallback_logEvent_SettingsAppliedExample.vi"/>
 	<Item Name="atcs_registerCallback_logEvent_SpectrographInPosition.vi" Type="VI" URL="../VIs/atcs_registerCallback_logEvent_SpectrographInPosition.vi"/>
 	<Item Name="atcs_registerCallback_logEvent_SummaryState.vi" Type="VI" URL="../VIs/atcs_registerCallback_logEvent_SummaryState.vi"/>
 	<Item Name="atcs_registerCallback_logEvent_TelescopeInPosition.vi" Type="VI" URL="../VIs/atcs_registerCallback_logEvent_TelescopeInPosition.vi"/>
@@ -207,6 +213,7 @@
 	<Item Name="atcs_salEvent_LoopTimeOutOfRange.vi" Type="VI" URL="../VIs/atcs_salEvent_LoopTimeOutOfRange.vi"/>
 	<Item Name="atcs_salEvent_RejectedCommand.vi" Type="VI" URL="../VIs/atcs_salEvent_RejectedCommand.vi"/>
 	<Item Name="atcs_salEvent_SettingVersions.vi" Type="VI" URL="../VIs/atcs_salEvent_SettingVersions.vi"/>
+	<Item Name="atcs_salEvent_SettingsAppliedExample.vi" Type="VI" URL="../VIs/atcs_salEvent_SettingsAppliedExample.vi"/>
 	<Item Name="atcs_salEvent_SpectrographInPosition.vi" Type="VI" URL="../VIs/atcs_salEvent_SpectrographInPosition.vi"/>
 	<Item Name="atcs_salEvent_SummaryState.vi" Type="VI" URL="../VIs/atcs_salEvent_SummaryState.vi"/>
 	<Item Name="atcs_salEvent_TelescopeInPosition.vi" Type="VI" URL="../VIs/atcs_salEvent_TelescopeInPosition.vi"/>
